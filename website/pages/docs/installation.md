@@ -28,6 +28,25 @@ Or using [Yarn](https://yarnpkg.com) which is an alternative package manager dev
 
 ```bash
 cd my-website
-# You need to install Yarn first
+# You need to install yarn first
 yarn add saber
+```
+
+## Run
+
+Just put `saber .` as script to simplify your starting:
+
+```json
+{
+    "name": "my-website",
+    "scripts": {
+        "start": "saber ."
+    }
+}
+```
+
+Then start your writing by:
+
+```bash
+npm start
 ```
